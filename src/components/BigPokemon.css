@@ -1,0 +1,14 @@
+@media (min-width: 800px){
+	.BigPokemon .list-group{
+		width: 50%;
+	}
+}
+
+#carouselExampleIndicators{
+	background-color: #999999;
+	height: 400px;
+}
+
+#carouselExampleIndicators img{
+	max-height: 400px;
+}
