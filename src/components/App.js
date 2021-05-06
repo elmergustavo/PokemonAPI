@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route path="/" exact render={(renderProps)=><Home {...renderProps}/>} />
         <Route path="/pokemon/:searchTerm" exact render={(renderProps)=><BigPokemon {...renderProps}/>} />
-        <Route render={()=>(<h2>404</h2>)} />
+        <Route render={()=>(<h2>404 Que sad xd</h2>)} />
       </Switch>
       <Footer />
     </div>
